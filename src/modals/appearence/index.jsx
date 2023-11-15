@@ -12,7 +12,8 @@ function AppearanceModal({ close }) {
 
     const { backgroundColor, color } = useAppearance()
     return (
-        <div className='w-[600px]'>
+        <div
+            className='w-[600px]'>
             <h3 className='mt-8 mb-3 text-[23px] leading-7 font-extrabold text-center'>Görünüm özelleştir</h3>
 
             <div className='p-8 pt-0 mb-5'>
@@ -47,7 +48,7 @@ function AppearanceModal({ close }) {
                         </header>
 
                         <div className='text-[15px] text-[color:var(--color-base)] leading-5'>
-                            X'in merkezinde, tıpkı bunun gibi gönderi denen kısa mesajlar yatar. Gönderiler; fotoğraflar, videolar, bağlantılar, metinler, etiketler ve <Link className='text-[#1d9bf0]' to="/x">@X</Link> gibi bahsetmeler içerebilir
+                            X'in merkezinde, tıpkı bunun gibi gönderi denen kısa mesajlar yatar. Gönderiler; fotoğraflar, videolar, bağlantılar, metinler, etiketler ve <Link className='text-[color:var(--color-primary)]' to="/x">@X</Link> gibi bahsetmeler içerebilir
                         </div>
 
                     </div>
@@ -56,28 +57,16 @@ function AppearanceModal({ close }) {
                 <div className='grid gap-5'>
                     <section>
                         <h6 className='text-[color:var(--color-base-secondary)] mb1 leading-5 text-[13px] font-bold'>Yazı tipi boyutu</h6>
-                        <div className='bg-[color:var(--background-secondary)] py-2 mb-3 rounded-2xl flex justify-around items-center'>
-                            {colors.map((c, index) => (
+                        <div className='bg-[color:var(--background-secondary)] p-4 rounded-2xl flex items-center gap-5 '>
+                            <div className='text-[13px]'>
+                                Aa
+                            </div>
+                            <div className='h-1 bg-[color:var(--color-secondary)] flex-1 rounded-full'>
 
-                                <button
-                                    key={index}
-                                    onClick={() => {
-                                        setColor({
-                                            ...color,
-                                            primary: c
-                                        })
-                                    }}
-                                    style={{ "--bg": c }} className='w-10 h-10 rounded-full bg-[color:var(--bg)] flex items-center justify-center text-white'>
-                                    {color.primary === c && (
-                                        <svg viewBox="0 0 24 24" width={25}>
-                                            <path
-                                                fill='currentColor'
-                                                d="M9.64 18.952l-5.55-4.861 1.317-1.504 3.951 3.459 8.459-10.948L19.4 6.32 9.64 18.952z" />
-                                        </svg>
-                                    )}
-                                </button>
-
-                            ))}
+                            </div>
+                            <div className='text-[20px]'>
+                                Aa
+                            </div>
 
                         </div>
                     </section>
