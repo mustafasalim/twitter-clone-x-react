@@ -11,7 +11,7 @@ function SidebarSection({ title, children, more }) {
                 {children}
             </div>
             {more && (
-                <Link to={more} className='h-[52px] flex items-center px-4 text-[#1d9bf0] text-[15px] hover:bg-[color:var(--background-third)] transition-colors'>
+                <Link to={more} className='h-[52px] flex items-center px-4 text-[color:var(--color-primary)] text-[15px] hover:bg-[color:var(--background-third)] transition-colors'>
                     Daha fazla göster
                 </Link>
             )}
