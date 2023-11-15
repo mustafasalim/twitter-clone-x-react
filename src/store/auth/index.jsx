@@ -19,9 +19,9 @@ const initialState = {
         },
         {
             id: 2,
-            username: "llaiseee",
-            fullName: "./llaiseee",
-            avatar: "https://pbs.twimg.com/profile_images/1619801379412873219/sGo2GMQW_400x400.jpg"
+            username: "mustafasalim2",
+            fullName: "./mustafaa",
+            avatar: "https://twirpz.files.wordpress.com/2015/06/twitter-avi-gender-balanced-figure.png"
         }
     ]
 }
