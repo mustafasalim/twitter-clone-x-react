@@ -6,10 +6,6 @@ import { removeModal } from '../store/modal/actions'
 function Modal() {
     const modal = useModal()
     const currentModal = modals.find(m => m.name === modal.name)
-    const buttonClicked = (e) => {
-        e.stopPropagation();
-        // your code here...
-    }
     return (
 
         <div className='flex items-center justify-center transation-all fixed inset-0 bg-[color:var(--background-modal)] z-20'>
