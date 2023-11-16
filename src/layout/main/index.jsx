@@ -26,7 +26,7 @@ function MainLayout() {
 
         document.documentElement.style.setProperty("--font-size", appearance.fontSize + "px")
 
-        console.log("appearance", appearance);
+
     }, [appearance])
 
     return (
