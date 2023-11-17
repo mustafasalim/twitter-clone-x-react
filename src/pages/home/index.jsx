@@ -1,7 +1,8 @@
 import React from 'react'
 import StickyHeader from '../../components/sticky-header'
 import Tab from '../../components/tab'
-import classNames from 'classnames'
+import ForYou from './for-you'
+
 
 
 function Home() {
@@ -23,14 +24,14 @@ function Home() {
                     </Tab.Item>
                 </Tab.Items>
                 <Tab.Content id="for-you">
-                    1.content
+                    <ForYou />
                 </Tab.Content>
                 <Tab.Content id="followings">
                     2.content
                 </Tab.Content>
 
             </Tab>
-            home components
+
         </>
 
     )
