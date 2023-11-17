@@ -13,7 +13,7 @@ function Item({ children, id }) {
 
                 setActive(id)
             }}
-            className='flex-auto'
+            className='flex-auto hover:bg-[color:var(--background-secondary)] transition-colors'
         >
             <div className={classNames('h-[3.313rem] relative inline-flex items-center', {
                 "font-bold": active === id,

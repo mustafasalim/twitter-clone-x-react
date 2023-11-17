@@ -1,9 +1,13 @@
 import React from 'react'
 import StickyHeader from '../../components/sticky-header'
 import Tab from '../../components/tab'
+import classNames from 'classnames'
 
 
 function Home() {
+
+
+
     return (
 
         <>
@@ -26,8 +30,7 @@ function Home() {
                 </Tab.Content>
 
             </Tab>
-
-            home component
+            home components
         </>
 
     )

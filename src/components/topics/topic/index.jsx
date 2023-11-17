@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from "react-router-dom"
 import { numberFormat } from "../../../utils/formats"
 import { Popover } from "@headlessui/react"
+import { topics } from '../../../utils/consts'
 
 function Topic({ item }) {
     return (

@@ -145,6 +145,7 @@ export const mainMenu = [
 
 export const topics = [
     {
+        id: 1,
         title: "Türkiye tarihinde gündemde",
         topic: {
             type: "tag",
@@ -153,6 +154,7 @@ export const topics = [
         postCount: 7999
     },
     {
+        id: 2,
         title: "Türkiye tarihinde gündemde",
         topic: {
             type: "query",
@@ -161,6 +163,7 @@ export const topics = [
         postCount: 15641
     },
     {
+        id: 3,
         title: "Türkiye tarihinde gündemde",
         topic: {
             type: "tag",
@@ -169,6 +172,7 @@ export const topics = [
         postCount: 4566
     },
     {
+        id: 4,
         title: "Türkiye tarihinde gündemde",
         topic: {
             type: "query",
@@ -176,6 +180,7 @@ export const topics = [
         },
         postCount: 15641
     }, {
+        id: 5,
         title: "Türkiye tarihinde gündemde",
         topic: {
             type: "tag",
@@ -184,6 +189,7 @@ export const topics = [
         postCount: 21444
     },
     {
+        id: 6,
         title: "Türkiye tarihinde gündemde",
         topic: {
             type: "query",
@@ -192,6 +198,7 @@ export const topics = [
         postCount: 15641
     },
     {
+        id: 7,
         title: "Türkiye tarihinde gündemde",
         topic: {
             type: "tag",
@@ -200,6 +207,7 @@ export const topics = [
         postCount: 67877
     },
     {
+        id: 8,
         title: "Türkiye tarihinde gündemde",
         topic: {
             type: "query",
@@ -208,6 +216,7 @@ export const topics = [
         postCount: 15641
     },
     {
+        id: 9,
         title: "Türkiye tarihinde gündemde",
         topic: {
             type: "tag",
@@ -216,6 +225,7 @@ export const topics = [
         postCount: 34563
     },
     {
+        id: 10,
         title: "Türkiye tarihinde gündemde",
         topic: {
             type: "query",

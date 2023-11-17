@@ -16,6 +16,8 @@ function Tab({ children, activeTab }) {
         setActive
     }
 
+    const content = contents.find(c => c.props.id === active)
+
     useEffect(() => {
 
         setActive(activeTab)
@@ -24,9 +26,10 @@ function Tab({ children, activeTab }) {
     console.log("children", children);
     return (
         <TabContext.Provider value={data}>
-            <div className='border-b border-[color:var(--background-third)]'>
+            <div className='border-b border-[color:var(--background-third)] sticky top-0 z-10 bg-[color:var(--background-primary)]/[.65] backdrop-blur-md'>
                 {items}
             </div>
+            {content}
         </TabContext.Provider>
     )
 }
