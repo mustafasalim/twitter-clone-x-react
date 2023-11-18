@@ -28,7 +28,7 @@ function More() {
 
             </Popover.Button>
 
-            <Popover.Panel className="w-[318px] absolute bottom-0 left-0 bg-[color:var(--background-primary)] rounded-xl shadow-box overflow-hidden">
+            <Popover.Panel className="w-[318px] absolute bottom-0 left-0 bg-[color:var(--background-primary)] rounded-xl shadow-box overflow-hidden ">
                 <button className='px-4 h-14 w-full  outline-none  inline-flex transition-colors items-center gap-5  hover:bg-[color:var(--background-secondary)]'>
 
                     <div className="w-[26.25px] h-[26.25px] relative">
