@@ -5,7 +5,7 @@ import Account from './account'
 
 function Sidebar() {
     return (
-        <aside className='w-[275px] max-h-screen min-h-screen px-2 flex flex-col z-[2] sticky top-0'>
+        <aside className='w-[275px] max-h-screen z-[2] min-h-screen px-2 flex flex-col sticky top-0'>
             <Logo />
             <Menu />
             <Account />

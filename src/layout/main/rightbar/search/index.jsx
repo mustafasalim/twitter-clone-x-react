@@ -13,7 +13,7 @@ function Search() {
 
     });
     return (
-        <div ref={ref} className='min-h-[32px] h-[53px] mb-3 flex items-center sticky top-0 bg-[color:var(--background-primary)] z-10'>
+        <div ref={ref} className='min-h-[32px] h-[53px] mb-3 flex items-center sticky top-0 bg-[color:var(--background-primary)] z-[2]'>
             <label className='h-[43px] rounded-full bg-[color:var(--background-third)] relative w-full group border border-transparent focus-within:bg-[color:var(background-primary)] focus-within:border-[color:var(--color-primary)]'>
                 <div className='w-[56px] h-full flex items-center justify-center absolute right-0 left-0 pointer-events-none'>
                     <svg viewBox="0 0 24 24" height={18.75} className='min-w-[32px] text-[color:var(--color-base-secondary)] group-focus-within:text-[color:var(--color-primary)] absolute' fill='currentColor' >

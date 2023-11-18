@@ -8,11 +8,11 @@ import { setModal } from '../../../../../store/modal/actions'
 function More() {
     return (
 
-        <Popover className="relative ">
+        <Popover className="relative">
             <Popover.Button className='py-[3px] block group outline-none'>
 
 
-                <div className={' p-3 rounded-full inline-flex transition-colors items-center gap-3 group-hover:bg-[color:var(--background-third)] '}>
+                <div className={' p-3 rounded-full inline-flex transition-colors items-center gap-3 group-hover:bg-[color:var(--background-third)] z-50'}>
                     <div className='w-[26.25px] h-[26.25px] flex justify-center items-center'>
                         <svg viewBox='0 0 24 24' width={26.25} height={26.25} >
                             <path
