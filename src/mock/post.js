@@ -36,6 +36,7 @@ Bu anket ders esnasında sorulmuştur.`,
 			like: 96946,
 			view: 903453
 		}
+		
 	},
 	{
 		id: '1708632465282150796',
@@ -54,7 +55,9 @@ Bu anket ders esnasında sorulmuştur.`,
 			repost: 3434,
 			like: 96946,
 			view: 903453
-		}
+		},
+
+	
 	},
 	{
 		id: '1708632465282150796',
