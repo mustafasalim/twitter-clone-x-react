@@ -31,7 +31,7 @@ function Photo({ photos }) {
 
             return (
 
-                <div className='mt-3 grid grid-cols-2 gap-0.5 h-[288px] border border-[color:var(--background-third)] rounded-2xl max-h-[518px] overflow-hidden'>
+                <div className='mt-3 grid grid-cols-2 gap-0.5 h-[288px] border border-[color:var(--background-third)] rounded-2xl  overflow-hidden'>
                     <img className='h-full w-full object-cover' src={photos[0]} alt="" />
                     <div className='h-full flex flex-col gap-0.5'>
                         <div className='flex-shrink-0 flex-1 relative'>

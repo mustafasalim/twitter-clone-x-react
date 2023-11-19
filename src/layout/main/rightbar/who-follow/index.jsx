@@ -10,10 +10,12 @@ function WhoFollow() {
 
     const account = useAccount()
     return (
+
         <SidebarSection more={`connect_people?user_id=${account.id}`} title="Kimi takip etmeli">
 
             {WhoFollowUsers.map((user, index) => <UserCard user={user} key={user.id} />)}
         </SidebarSection>
+
     )
 }
 

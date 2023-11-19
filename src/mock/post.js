@@ -1,9 +1,9 @@
+
 export const posts = [
 	{
 		id: '1708632465282150796',
 		type: 'poll',
-		content: `PROTOTURK'un paylaştığı videoları seviyor musunuz?
-Bu anket ders esnasında sorulmuştur.`,
+		content: `Mustafa salim in yaptıgı projeleri begeniyormusunuz ?`,
 		poll: {
 			voted: false,
 			votes: 12,
@@ -26,9 +26,9 @@ Bu anket ders esnasında sorulmuştur.`,
 			]
 		},
 		account: {
-			avatar: 'https://pbs.twimg.com/profile_images/1200814302820753410/AhAh3xlU_400x400.png',
-			username: 'prototurkcom',
-			fullName: './prototurk'
+			avatar: 'https://pbs.twimg.com/profile_images/1720542438148722688/5CKhzMEe_200x200.jpg',
+			username: 'mustafasalim',
+			fullName: './mustafasalim'
 		},
 		stats: {
 			comments: 43535,
@@ -36,14 +36,14 @@ Bu anket ders esnasında sorulmuştur.`,
 			like: 96946,
 			view: 903453
 		}
-		
+
 	},
 	{
 		id: '1708632465282150796',
 		type: 'photo',
 		content: `Toplu günaydın, ben her sabah spora devam ama her gün post atmıyorum artık, max 4 günde bir atarım çünkü en fazla 4 foto paylaşılıyormuş 🤣`,
 		photos: [
-			'https://pbs.twimg.com/media/F7VBIvaW0AIZyiX?format=jpg&name=large'
+			'src/postPhotos/fare.jpeg'
 		],
 		account: {
 			avatar: 'https://pbs.twimg.com/profile_images/1664359918365712388/XHKF4rZP_normal.jpg',
@@ -57,15 +57,15 @@ Bu anket ders esnasında sorulmuştur.`,
 			view: 903453
 		},
 
-	
+
 	},
 	{
 		id: '1708632465282150796',
 		type: 'photo',
 		content: `Imagination Land!`,
 		photos: [
-			'https://pbs.twimg.com/media/F7ZIK8KWgAAP8pH?format=jpg&name=900x900',
-			'https://pbs.twimg.com/media/F7VBIvZXEAAIpEM?format=jpg&name=large'
+			'src/postPhotos/foto1.jpeg',
+			'src/postPhotos/foto4.jpeg'
 		],
 		account: {
 			avatar: 'https://pbs.twimg.com/profile_images/1683325380441128960/yRsRRjGO_400x400.jpg',
@@ -107,9 +107,9 @@ And people have been busy executing god-like tasks.
 		type: 'photo',
 		content: `İstanbul'da Cumhuriyet'in 100. yılına özel, 100 gün boyunca Yerebatan Sarnıcı, Şerefiye Sarnıcı, Miniatürk ve Panorama 1453 Tarih Müzesi ücretsiz ziyaret edilebilecek.`,
 		photos: [
-			'https://pbs.twimg.com/media/F7bpqaKXkAAopDd?format=jpg&name=900x900',
-			'https://pbs.twimg.com/media/F7bptMoXYAA7TpB?format=jpg&name=900x900',
-			'https://pbs.twimg.com/media/F_P-HvnW4AAH7g9?format=jpg&name=small'
+			'src/postPhotos/foto3.jpeg',
+			'src/postPhotos/foto9.jpeg',
+			'src/postPhotos/foto4.jpeg'
 		],
 		account: {
 			avatar: 'https://pbs.twimg.com/profile_images/1707827931895017472/1-bUbTT3_400x400.jpg',
@@ -134,10 +134,11 @@ This prompt is going viral- mimicking a creepy iPhone capture that looks insanel
 
 Prompt in ALT tag + more examples in thread:`,
 		photos: [
-			'https://pbs.twimg.com/media/F7aKxHhaAAAnHlS?format=jpg&name=large',
-			'https://pbs.twimg.com/media/F7VBIvaW0AAyXEr?format=jpg&name=large',
-			'https://pbs.twimg.com/media/F7VBIvaWAAAWUsx?format=jpg&name=large',
-			'https://pbs.twimg.com/media/F7VBIvaWAAAWUsx?format=jpg&name=large',
+			'src/postPhotos/foto9.jpeg',
+			'src/postPhotos/foto6.jpeg',
+			'src/postPhotos/foto5.jpeg',
+			'src/postPhotos/foto7.jpeg',
+
 		],
 		account: {
 			avatar: 'https://pbs.twimg.com/profile_images/1551576769735565312/p29DD_wc_normal.jpg',
