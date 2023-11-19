@@ -109,7 +109,7 @@ And people have been busy executing god-like tasks.
 		photos: [
 			'https://pbs.twimg.com/media/F7bpqaKXkAAopDd?format=jpg&name=900x900',
 			'https://pbs.twimg.com/media/F7bptMoXYAA7TpB?format=jpg&name=900x900',
-			'https://pbs.twimg.com/media/F8tfk2JWwAAlY3f?format=jpg&name=large'
+			'https://pbs.twimg.com/media/F_P-HvnW4AAH7g9?format=jpg&name=small'
 		],
 		account: {
 			avatar: 'https://pbs.twimg.com/profile_images/1707827931895017472/1-bUbTT3_400x400.jpg',

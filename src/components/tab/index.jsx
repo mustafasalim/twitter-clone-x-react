@@ -26,7 +26,7 @@ function Tab({ children, activeTab }) {
     console.log("children", children);
     return (
         <TabContext.Provider value={data}>
-            <div className='border-b border-[color:var(--background-third)] sticky top-0 z-10 bg-[color:var(--background-primary)]/[.65] backdrop-blur-md'>
+            <div className='border-b border-[color:var(--background-third)] sticky top-0 z-10 bg-[color:var(--background-primary)]/[.80] backdrop-blur-md'>
                 {items}
             </div>
             {content}

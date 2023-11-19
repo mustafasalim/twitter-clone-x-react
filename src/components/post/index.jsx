@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { numberFormat } from "../../utils/formats"
+import Photo from './photo'
 
 
 function Post({ post }) {
@@ -34,6 +35,7 @@ function Post({ post }) {
                     <div dangerouslySetInnerHTML={{
                         __html: post.content.replace(/\n/g, "<br />")
                     }} />
+                    {post.type === "photo" && <Photo photos={post.photos} />}
                     <div className='flex justify-between -ml-1.5 mt-1.5'>
                         <div className='group flex items-center gap-px'>
                             <div className='w-[2.172rem] transition-colors h-[2.172rem] flex items-center justify-center text-[color:var(--color-base-secondary)] group-hover:bg-[#1d9bf01a] rounded-full group-hover:text-[#1D9BF0]'>
