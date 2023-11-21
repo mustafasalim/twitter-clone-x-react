@@ -48,7 +48,7 @@ function Poll({ poll: pollData }) {
                         <div className='h-8 flex items-center justify-between relative overflow-hidden rounded-lg px-2 z-[1]'>
                             <div
                                 style={{ width: ((answer.votes / poll.votes) * 100) + "%" }}
-                                className='absolute top-0 left-0 h-full bg-[color:var(--color-base-secondary)] opacity-50 z-[-1]'
+                                className='absolute top-0 left-0 h-full bg-[color:var(--color-primary)] opacity-50 z-[-1]'
                             />
                             <div className='flex items-center gap-0.5'>
                                 {answer.text}

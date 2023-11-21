@@ -2,6 +2,7 @@ import React from 'react'
 import StickyHeader from '../../components/sticky-header'
 import Tab from '../../components/tab'
 import ForYou from './for-you'
+import Followerss from './followerss'
 
 
 
@@ -27,7 +28,7 @@ function Home() {
                     <ForYou />
                 </Tab.Content>
                 <Tab.Content id="followings">
-                    2.content
+                    <Followerss />
                 </Tab.Content>
 
             </Tab>

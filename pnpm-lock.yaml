@@ -17,6 +17,9 @@ dependencies:
   classnames:
     specifier: ^2.3.2
     version: 2.3.2
+  dompurify:
+    specifier: ^3.0.6
+    version: 3.0.6
   prop-types:
     specifier: ^15.8.1
     version: 15.8.1
@@ -1129,6 +1132,10 @@ packages:
     dependencies:
       esutils: 2.0.3
     dev: true
+
+  /dompurify@3.0.6:
+    resolution: {integrity: sha512-ilkD8YEnnGh1zJ240uJsW7AzE+2qpbOUYjacomn3AvJ6J4JhKGSZ2nh4wUIXPZrEPppaCLx5jFe8T89Rk8tQ7w==}
+    dev: false
 
   /electron-to-chromium@1.4.571:
     resolution: {integrity: sha512-Sc+VtKwKCDj3f/kLBjdyjMpNzoZsU6WuL/wFb6EH8USmHEcebxRXcRrVpOpayxd52tuey4RUDpUsw5OS5LhJqg==}

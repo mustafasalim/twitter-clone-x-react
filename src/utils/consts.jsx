@@ -46,7 +46,7 @@ export const mainMenu = [
     {
         path: "/notification",
         title: "Bildirimler",
-        notification: 4,
+        notification: Math.floor(Math.random() * 100),
         icon: {
             active: (
                 <svg viewBox='0 0 24 24' width={26.25} height={26.25} fill='currentColor'>

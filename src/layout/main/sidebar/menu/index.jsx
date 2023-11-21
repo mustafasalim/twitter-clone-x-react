@@ -22,7 +22,7 @@ function Menu() {
                                 })}>
                             <div className='w-[26.25px] h-[26.25px] relative'>
                                 {menu?.notification && (
-                                    <span className='w-[18px] h-[18px] rounded-full bg-[color:var(--color-primary)] text-[color:var(--background-primary)] absolute -top-1 -right-1 flex items-center justify-center text-[11px]'>{menu.notification}</span>
+                                    <span className='px-1 font-bold rounded-full bg-[color:var(--color-primary)] text-[color:var(--color-base)] absolute -top-1 -right-1 flex items-center justify-center text-[11px]'>{menu.notification}</span>
                                 )}
                                 {!isActive && menu.icon.passive}
                                 {isActive && menu.icon.active}
